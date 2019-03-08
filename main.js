@@ -10,7 +10,7 @@ const printToDom = (divId, textToPrint) => {
 const projects = [
     {
         title: "Cool Project", 
-        screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
+        screenshot: "https://via.placeholder.com/200", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -19,7 +19,7 @@ const projects = [
       },
       {
         title: "Most Excellent Project", 
-        screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
+        screenshot: "https://via.placeholder.com/200", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -28,7 +28,7 @@ const projects = [
       },
       {
         title: "Radical Project", 
-        screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
+        screenshot: "https://via.placeholder.com/200", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -37,7 +37,7 @@ const projects = [
       },
       {
         title: "Sad Project", 
-        screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
+        screenshot: "https://via.placeholder.com/200", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: false,
@@ -54,12 +54,12 @@ const createProjectCards = () => {
         if (projects[i].available === true){
             domString += `<div class='project'>`;
             domString += `<div class='title'><h2>${projects[i].title}</h2></div>`;
-            domString += `<div class='screenshot'><h4>${projects[i].screenshot}</h4></div>`;
+            domString += `<div class='screenshot'><img src=${projects[i].screenshot}></div>`;
             domString += `<div class='description'><h4>${projects[i].description}</h4></div>`;
-            domString += `<div class='technologies-used'><h4>${projects[i].technologiesUsed}</h4></div>`;
+            domString += `<div class='technologies-used'><h4>Technologies used: ${projects[i].technologiesUsed}</h4></div>`;
             domString += `<div class='availability'><h4>${projects[i].available}</h4></div>`;
-            domString += `<div class='project-url'><h4>${projects[i].url}</h4></div>`;
-            domString += `<div class='gitHub-url'><h4>${projects[i].githubUrl}</h4></div>`;
+            domString += `<div class='project-url'><a href=${projects[i].url}>Project URL</a></div>`;
+            domString += `<div class='gitHub-url'><a href=${projects[i].githubUrl}>GitHub URL</a></div>`;
             domString += `</div>`;
         }
     }
