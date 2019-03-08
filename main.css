@@ -33,7 +33,7 @@ img {
     background-color: white;
     text-align: center;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     box-shadow: 7px 9px rgba(128, 128, 128, 0.445);
 }
 }
@@ -44,7 +44,19 @@ img {
     border: 1px solid lightblue;
     background-color: white;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     box-shadow: 9px 11px rgba(128, 128, 128, 0.445);
     }
+}
+
+.contact-info {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-info h5 {
+    margin: 15px;
+
 }
