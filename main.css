@@ -1,3 +1,29 @@
 body {
     background-color: lightblue;
 }
+
+#project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 599px){
+.project {
+    border: 1px solid;
+    background-color: white;
+    text-align: center;
+    width: 40%;
+}
+}
+
+@media only screen and (min-width: 600px){
+    .project {
+    width: 30%;
+    border: 1px solid;
+    background-color: white;
+    text-align: center;
+    
+    }
+}
