@@ -2,28 +2,49 @@ body {
     background-color: lightblue;
 }
 
-#project-container {
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.project-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    align-content: space-between;
 }
+
+.title {
+    text-decoration: underline;
+}
+
 
 @media only screen and (max-width: 599px){
 .project {
-    border: 1px solid;
+    border: 1px solid lightblue;
     background-color: white;
     text-align: center;
-    width: 40%;
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 7px 9px rgba(128, 128, 128, 0.445);
 }
 }
 
 @media only screen and (min-width: 600px){
     .project {
     width: 30%;
-    border: 1px solid;
+    border: 1px solid lightblue;
     background-color: white;
     text-align: center;
-    
+    margin-bottom: 15px;
+    box-shadow: 9px 11px rgba(128, 128, 128, 0.445);
     }
 }
