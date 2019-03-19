@@ -57,13 +57,15 @@ const createProjectCards = () => {
             domString += `<div class='screenshot'><img src=${projects[i].screenshot}></div>`;
             domString += `<div class='description'><h4>${projects[i].description}</h4></div>`;
             domString += `<div class='technologies-used'><h4>Technologies used: ${projects[i].technologiesUsed}</h4></div>`;
+
             domString += `<div class='availability'><h4>${projects[i].available}</h4></div>`;
+
             domString += `<div class='project-url'><a href=${projects[i].url}>Project URL</a></div>`;
             domString += `<div class='gitHub-url'><a href=${projects[i].githubUrl}>GitHub URL</a></div>`;
             domString += `</div>`;
         }
     }
-    printToDom('project-container', domString);
+    printToDom('projectsPage', domString);
 };
 
 const init = () => {
