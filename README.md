@@ -4,7 +4,7 @@ This site showcases the projects that I've completed for the front-end portion o
 
 ## Screenshots
 
-
+![personal-bio-site screenshot](https://raw.githubusercontent.com/mtgill/personal-bio-site/master/screenshot/screenshot-3-19.PNG "personal-bio-site screenshot")
 
 
 ## Getting Started 
