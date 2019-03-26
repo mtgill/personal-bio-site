@@ -1,3 +1,10 @@
+const navBioButton = document.getElementById('navToBio');
+const navTechnologyButton = document.getElementById('navToTechnologies');
+const navProjectButton = document.getElementById('navToProjects');
+const bioDiv = document.getElementById('bioButton');
+const techDiv = document.getElementById('technologiesPage');
+const projectDiv = document.getElementById('projectsPage');
+
 // printToDom function - takes divId and string
 const printToDom = (divId, textToPrint) => {
     const selectedDiv = document.getElementById(divId);
@@ -48,6 +55,8 @@ const projects = [
      
 ];
 
+
+
 const createProjectCards = () => {
     let domString = "";
     for (let i = 0; i < projects.length; i++){
@@ -66,8 +75,39 @@ const createProjectCards = () => {
     printToDom('project-container', domString);
 };
 
-const init = () => {
+const buttonEvents = () => {
+  navBioButton.addEventListener('click', navButtonActions);
+  navTechnologyButton.addEventListener('click', navButtonActions);
+  navProjectButton.addEventListener('click', navButtonActions);
+};
+
+
+
+const navButtonActions = (e) => {
+
+  
+  if (e.target.id === 'navToBio'){
+    bioDiv.style.display = 'block';
+    techDiv.style.display = 'none';
+    projectDiv.style.display = 'none';
+  }
+  if (e.target.id === 'technologiesPage'){
+    bioDiv.style.display = 'none';
+    techDiv.style.display = 'block';
+    projectDiv.style.display = 'none';
+  }
+  if ((e.target.id === 'projectsPage')){
+    console.log('button works');
     createProjectCards();
+    bioDiv.style.display = 'none';
+    techDiv.style.display = 'none';
+    projectDiv.style.display = 'block';
+  }
+}
+const init = () => {
+  
+  buttonEvents();
+    
 };
 
 init();

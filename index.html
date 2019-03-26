@@ -7,30 +7,35 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- TODO: Insert a title for your page -->
   <title class="page-title">Matt's Projects</title>
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="main.css"/>
 </head>
 
 <body>
   <!-- Navigation -->
-  <nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- TODO: Insert some sort of H1-H6 with your name here -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <div class="name-div"><h2>Matt Gill</h2></div>
-    <ul id="navLinks">
-      <li><a id="navToBio">Bio</a></li>
-      <li><a id="navToTechnologies">Technologies</a></li>
-      <li><a id="navToProjects">Projects</a></li>
+    <ul id="nav" class="navbar-nav mr-auto">
+      <li class="nav-item"><button type="button" class="btn btn-primary nav-link" id="navToBio">Bio</button></li>
+      <li class="nav-item"><button type="button" class="btn btn-primary nav-link" id="navToTechnologies">Technologies</button></li>
+      <li class="nav-item"><button type="button" class="btn btn-primary nav-link" id="navToProjects">Projects</button></li>
     </ul>
+    </div>
   </nav>
   <!-- End Navigation -->
 
   <!-- Primary View -->
   <div class="fullPage" id="bioPage">
     <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-
+    <h2>Bio Page</h2>
+    <p>Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me </p>
   </div>
   <div class="fullPage" id="technologiesPage">
     <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+    <h2>Technologies Page</h2>
+    <p>Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad</p>
   </div>
   <div class="fullPage" id="projectsPage"></div>
   <!-- End Primary View -->
@@ -41,6 +46,9 @@
   </footer>
   <!-- End Footer -->
 
-  <script src="./main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
 </body>
 </html>
