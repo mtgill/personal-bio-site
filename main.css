@@ -2,7 +2,7 @@ body {
     background-color: lightblue;
 }
 
-#project-container {
+#projectsPage {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
