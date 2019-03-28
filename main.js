@@ -1,9 +1,11 @@
-const navBioButton = document.getElementById('navToBio');
-const navTechnologyButton = document.getElementById('navToTechnologies');
-const navProjectButton = document.getElementById('navToProjects');
-const bioDiv = document.getElementById('bioButton');
+const navBioButton = document.getElementById('bioButton');
+const navTechnologyButton = document.getElementById('techButton');
+const navProjectButton = document.getElementById('projectButton');
+
+const bioDiv = document.getElementById('bioPage');
 const techDiv = document.getElementById('technologiesPage');
 const projectDiv = document.getElementById('projectsPage');
+
 
 // printToDom function - takes divId and string
 const printToDom = (divId, textToPrint) => {
@@ -76,57 +78,60 @@ const createProjectCards = () => {
 };
 
 const buildBioPage = () => {
-
   let domString = "";
   domString += `<h2>Bio Page</h2>`;
   domString += `<p>Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me </p>`;
-
   printToDom('bioPage', domString);
 }
 
 const buildTechPage = () => {
-  // document.getElementById('bioPage').style.display = 'none';
   let domString = "";
   domString += `<h2>Technologies Page</h2>`;
   domString += `<p>Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad</p>`;
-
-
   printToDom('technologiesPage', domString);
 }
 
+const navButtonLogic = (e) => {
+	const navTargetId = e.target.id;
+  
+  if (navTargetId === 'bioButton') {
+    if (bioDiv.style.display === 'none'){
+      bioDiv.style.display = 'block';
+    }
+    techDiv.style.display = 'none';
+    projectDiv.style.display = 'none';
+    buildBioPage();
+
+}
+	else if (navTargetId === 'techButton'){
+    if (techDiv.style.display === 'none'){
+      techDiv.style.display = 'block';
+    }
+    bioDiv.style.display = 'none';
+    projectDiv.style.display = 'none';
+    buildTechPage();
+
+}
+	else if (navTargetId === 'projectButton'){
+    if (projectDiv.style.display === 'none'){
+      projectDiv.style.display = 'flex';
+    }
+    bioDiv.style.display = 'none';
+    techDiv.style.display = 'none';
+    createProjectCards();
+}
+};
 
 const buttonEvents = () => {
-  navBioButton.addEventListener('click', buildBioPage);
-  navTechnologyButton.addEventListener('click', buildTechPage);
-  navProjectButton.addEventListener('click', createProjectCards);
+  navBioButton.addEventListener('click', navButtonLogic);
+  navTechnologyButton.addEventListener('click', navButtonLogic);
+  navProjectButton.addEventListener('click', navButtonLogic);
 };
 
 
-
-// const navButtonActions = (e) => {
-
-//   e.preventDefault();
-  
-//   if (e.target.id === 'navToBio'){
-//     bioDiv.style.display = 'block';
-//     techDiv.style.display = 'none';
-//     projectDiv.style.display = 'none';
-//   }
-//   else if (e.target.id === 'technologiesPage'){
-//     bioDiv.style.display = 'none';
-//     techDiv.style.display = 'block';
-//     projectDiv.style.display = 'none';
-//   }
-//   else if ((e.target.id === 'projectsPage')){
-//     console.log('button works');
-//     createProjectCards();
-//     bioDiv.style.display = 'none';
-//     techDiv.style.display = 'none';
-//     projectDiv.style.display = 'block';
-//   }
-// }
 const init = () => {
-  
+  createProjectCards();
+
   buttonEvents();
     
 };

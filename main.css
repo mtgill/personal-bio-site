@@ -9,6 +9,18 @@ body {
     flex-wrap: wrap;
 }
 
+.nav {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#bioButton,
+#techButton,
+#projectButton {
+    border: solid 1px white;
+    margin-right: 8px;
+}
+
 @media only screen and (max-width: 599px){
 .project {
     border: 1px solid;
