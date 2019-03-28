@@ -10,7 +10,7 @@ This site showcases the projects that I've completed for the front-end portion o
 ![personal-bio-site screenshot](https://raw.githubusercontent.com/mtgill/personal-bio-site/master/screenshot/screenshot-3-19.PNG "personal-bio-site screenshot")
 
 ### Screenshot 2
-![personal-bio-site screenshot two] (https://raw.githubusercontent.com/mtgill/personal-bio-site/master/screenshot/screenshot-3-28.PNG "personal-bio-site screenshot two")
+![personal-bio-site screenshot two](https://raw.githubusercontent.com/mtgill/personal-bio-site/master/screenshot/screenshot-3-28.PNG "personal-bio-site screenshot two")
 
 
 
