@@ -122,18 +122,16 @@ const navButtonLogic = (e) => {
 }
 };
 
-const buttonEvents = () => {
-  navBioButton.addEventListener('click', navButtonLogic);
-  navTechnologyButton.addEventListener('click', navButtonLogic);
-  navProjectButton.addEventListener('click', navButtonLogic);
-};
-
+const addEventListeners = () => {
+  const navButtons = document.getElementsByClassName('nav-link');
+    for(let i = 0; i < navButtons.length; i++){
+      navButtons[i].addEventListener('click', navButtonLogic);
+    }
+}
 
 const init = () => {
   createProjectCards();
-
-  buttonEvents();
-    
+  addEventListeners();    
 };
 
 init();
