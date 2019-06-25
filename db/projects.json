@@ -1,0 +1,26 @@
+{
+  "movieHistory":{
+    "title": "Movie History",
+    "screenshot": "https://via.placeholder.com/200",
+    "description": "Application that tracks movies you've watched and want to watch",
+    "technologiesUsed": "html, scss and javascript, modular javascript, axios, XMLhttprequest Promises, firebase CRUD",
+    "url": "https://movie-history-53bc9.firebaseapp.com",
+    "githubUrl": "https://github.com/mtgill/movie-history"
+  },
+  "doggieDaycare":{
+    "title": "Cool Project",
+    "screenshot": "https://via.placeholder.com/200",
+    "description": "This is the best project",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+  },
+  "tamagotchi":{
+    "title": "Cool Project",
+    "screenshot": "https://via.placeholder.com/200",
+    "description": "This is the best project",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+  }
+}
