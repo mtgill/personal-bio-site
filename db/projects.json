@@ -8,7 +8,7 @@
     "githubUrl": "https://github.com/mtgill/movie-history"
   },
   "doggieDaycare":{
-    "title": "Cool Project",
+    "title": "Doggie Daycare",
     "screenshot": "https://via.placeholder.com/200",
     "description": "This is the best project",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
@@ -18,9 +18,9 @@
   "tamagotchi":{
     "title": "Tamagotchi",
     "screenshot": "https://raw.githubusercontent.com/mtgill/tamagotchi/master/assets/tamagotchi-screenshot.PNG",
-    "description": "This is the best project",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "description": "This app is a virtual Tamagotchi game! Each section has two buttons with add and subtract elements of the Tamagotchi. The values increase and decrease by random increments, and the Eat, Sleep, and Fight modules are interactive. Additionally there's an input field at the bottom to upload a picture of your Tamagotchi!",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Modular Javascript, Version Control with Github",
     "url": "https://tamagotchi-949b6.firebaseapp.com",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "githubUrl": "https://github.com/mtgill/tamagotchi"
   }
 }
