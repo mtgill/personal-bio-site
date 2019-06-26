@@ -9,9 +9,9 @@
   },
   "doggieDaycare":{
     "title": "Doggie Daycare",
-    "screenshot": "https://via.placeholder.com/200",
-    "description": "This is the best project",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "screenshot": "https://raw.githubusercontent.com/mtgill/personal-bio-site/master/assets/screenshots/doggie-daycare-screenshot1.PNG",
+    "description": "This application assists in organizing a dog daycare",
+    "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Version Control with Github, modular javascript, axios, XMLhttprequest Promises, firebase CRUD, React",
     "url": "https://doggie-day-care-f29a5.firebaseapp.com/",
     "githubUrl": "https://github.com/mtgill/doggie-day-care"
   },
