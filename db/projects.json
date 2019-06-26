@@ -12,8 +12,8 @@
     "screenshot": "https://via.placeholder.com/200",
     "description": "This is the best project",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "url": "https://doggie-day-care-f29a5.firebaseapp.com/",
+    "githubUrl": "https://github.com/mtgill/doggie-day-care"
   },
   "tamagotchi":{
     "title": "Tamagotchi",
