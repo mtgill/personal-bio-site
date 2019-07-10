@@ -1,0 +1,13 @@
+/* your styles go here */
+
+#projectsPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  text-align: center;
+  border: none;
+}
