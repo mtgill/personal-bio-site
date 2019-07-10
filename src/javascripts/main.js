@@ -1,3 +1,8 @@
+import '../vendor/jquery/jquery.min';
+import '../vendor/bootstrap/js/bootstrap.bundle.min';
+import '../vendor/onepage-scroll/jquery.onepage-scroll.min';
+import '../vendor/lightbox2/js/lightbox.min';
+import '../js/front';
 import projectCards from './components/projects/projects';
 
 const bioDiv = document.getElementById('bioPage');
