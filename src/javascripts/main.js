@@ -14,14 +14,14 @@ const printToDom = (divId, textToPrint) => {
 const buildBioPage = () => {
   let domString = '';
   domString += '<h2>Bio Page</h2>';
-  domString += '<p>Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me Stuff about me </p>';
+  domString += '<p>Bio Page</p>';
   printToDom('bioPage', domString);
 };
 
 const buildTechPage = () => {
   let domString = '';
   domString += '<h2>Technologies Page</h2>';
-  domString += '<p>Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad Technologies are rad</p>';
+  domString += '<p>Technology page</p>';
   printToDom('technologiesPage', domString);
 };
 

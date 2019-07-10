@@ -2,7 +2,7 @@
   "name": "personal-bio-site",
   "version": "1.0.0",
   "description": "This site showcases the projects that I've completed for the front-end portion of the NSS fullstack course and is currently a work in progress.",
-  "main": "src/javascripts/main.js",
+  "main": "src/index.html",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production --module-bind js=babel-loader",

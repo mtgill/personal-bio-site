@@ -1,5 +1,5 @@
 import projectData from '../../helpers/data/projectData';
-import util from '../../helpers/util';
+// import util from '../../helpers/util';
 
 const createProjectCards = () => {
   let domString = '';
@@ -22,7 +22,8 @@ const createProjectCards = () => {
       });
       domString += '</div>';
       domString += '</div>';
-      util.printToDom('projectsPage', domString);
+      console.error(domString);
+      // util.printToDom('projectsPage', domString);
     });
 };
 
