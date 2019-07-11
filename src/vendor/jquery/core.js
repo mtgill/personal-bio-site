@@ -23,7 +23,6 @@ define( [
 ], function( arr, document, getProto, slice, concat, push, indexOf,
 	class2type, toString, hasOwn, fnToString, ObjectFunctionString,
 	support, isFunction, isWindow, DOMEval, toType ) {
-
 "use strict";
 
 var
