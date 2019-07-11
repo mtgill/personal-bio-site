@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 /*!
  * jQuery JavaScript Library v3.3.1
  * https://jquery.com/
