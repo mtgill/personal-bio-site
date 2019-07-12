@@ -1,3 +1,5 @@
+import jQuery from 'jquery';
+
 /* ===========================================================
  * jquery-onepage-scroll.js v1.3.1
  * ===========================================================
@@ -13,8 +15,8 @@
  * License: GPL v3
  *
  * ========================================================== */
-!function($){
 
+!function($){
 
   var defaults = {
     sectionContainer: "section",
@@ -423,4 +425,4 @@
   }
 
 
-}(window.jQuery);
+}(jQuery, window);

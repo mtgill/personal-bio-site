@@ -22,5 +22,13 @@
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Modular Javascript, Version Control with Github",
     "url": "https://tamagotchi-949b6.firebaseapp.com",
     "githubUrl": "https://github.com/mtgill/tamagotchi"
+  },
+  "fishStore":{
+    "title": "Fish Store",
+    "screenshot": "https://raw.githubusercontent.com/mtgill/fish-store/master/assets/screenshots/screenshot1.PNG",
+    "description": "Fish Store is an online fish market where users can add fish to their order, submit that order, and then edit or delete an order if they wish",
+    "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Version Control with Github, modular javascript, axios, XMLhttprequest Promises, firebase CRUD, React",
+    "url": "https://fish-store-39052.firebaseapp.com/",
+    "githubUrl": "https://github.com/mtgill/fish-store"
   }
 }
