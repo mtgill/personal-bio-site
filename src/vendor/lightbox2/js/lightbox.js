@@ -14,7 +14,6 @@
 
 // Uses Node, AMD or browser globals to create a module.
 (function (root, factory) {
-  import $ from 'jquery';
 
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
